@@ -1,0 +1,14 @@
+Question 6:
+typedev vs macros vs const
+
+1) typedef keyword: in C++ is used for aliasing existing data types, user-defined data
+types, and pointers to a more meaningful name.
+Eg: typedef int mylnt
+This allows us to declare new integers using mylnt, instead of int.
+
+2) Macros: can be of any type. Macros can even be any code block containing
+statements, loops, function calls etc. They are expanded by the preprocessor before
+compilation takes place.
+
+3) const: keyword is used to define the constant value that cannot change during
+program execution.
